@@ -52,8 +52,14 @@ node index.js
 
 ### 🚀 Endpoints Disponibles  
 
-- Inventario con HATEOAS, paginación y ordenamiento:  
-GET http://localhost:3000/joyas?limits=3&page=2&order_by=stock_ASC
+Puedes probar las rutas directamente en tu navegador o utilizando herramientas como Thunder Client y Postman[cite: 9].
 
-- Filtrado dinámico por precio, categoría y metal:
-GET http://localhost:3000/joyas/filtros?precio_min=25000&precio_max=30000&categoria=aros&metal=plata
+*   **Consulta de inventario con HATEOAS, paginación y ordenamiento**[cite: 9]:
+    ```text
+    GET http://localhost:3000/joyas?limits=3&page=2&order_by=stock_ASC
+    ```
+
+*   **Filtrado dinámico de joyas por precio, categoría y metal**[cite: 9]:
+    ```text
+    GET http://localhost:3000/joyas/filtros?precio_min=25000&precio_max=30000&categoria=aros&metal=plata
+    ```

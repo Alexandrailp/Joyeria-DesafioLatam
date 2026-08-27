@@ -9,7 +9,7 @@ Para evaluar este proyecto, debes crear la base de datos localmente.
 1. Abre tu terminal de PostgreSQL (`psql`).
 2. Ejecuta los siguientes comandos:
 
-```
+```sql
 CREATE DATABASE joyas;
 \c joyas;
 
@@ -28,13 +28,13 @@ INSERT INTO inventario values
 
 Navega a la carpeta backend e instala las dependencias:  
 
-``` 
+```bash
 cd backend
 npm install
 ```
 ¡IMPORTANTE! En el archivo backend/index.js, actualiza la configuración del pool de PostgreSQL con tu contraseña local.  
 
-``` 
+```JavaScript
 const pool = new Pool({
   host: 'localhost',
   user: 'postgres',
@@ -46,7 +46,7 @@ const pool = new Pool({
 
 Enciende el servidor:  
 
-```
+```bash
 node index.js
 ```
 

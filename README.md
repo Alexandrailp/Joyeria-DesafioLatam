@@ -52,7 +52,7 @@ node index.js
 
 ### 🚀 Endpoints Disponibles  
 
-Puedes probar las rutas directamente en tu navegador o utilizando herramientas como Thunder Client y Postman[cite: 9].
+Puedes probar las rutas directamente en tu navegador o utilizando herramientas como Thunder Client y Postman.
 
 *   **Consulta de inventario con HATEOAS, paginación y ordenamiento**[cite: 9]:
     ```text
